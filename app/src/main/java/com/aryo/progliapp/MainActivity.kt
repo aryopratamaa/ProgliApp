@@ -26,8 +26,37 @@ class MainActivity : AppCompatActivity() {
                 "Program Keahlian Pengembangan Perangkat Lunak dan Gim (PPLG)",
                 "Bekerja sebagai programmer, web developer, mobile developer, software tester, atau IT support.",
                 "Laboratorium komputer, software development tools, server lokal."
+            ),
+            Keahlian(
+                "Teknik Elektronika Industri",
+                "Program Keahlian Teknik Elektronika",
+                "Bekerja di industri manufaktur, teknisi peralatan elektronik, maintenance engineer.",
+                "Lab elektronika, peralatan solder, PLC, sensor dan aktuator."
+            ),
+            Keahlian(
+                "Teknik Pemesinan",
+                "Program Keahlian Teknik Mesin",
+                "Bekerja sebagai operator mesin, teknisi permesinan, atau di bidang manufaktur logam.",
+                "Mesin bubut, mesin frais, mesin CNC."
+            ),
+            Keahlian(
+                "Teknik Kendaraan Ringan",
+                "Program Keahlian Otomotif",
+                "Bekerja sebagai mekanik mobil, teknisi service kendaraan ringan, teknisi engine.",
+                "Bengkel praktik, peralatan otomotif."
+            ),
+            Keahlian(
+                "Teknik Sepeda Motor",
+                "Program Keahlian TSM",
+                "Bekerja sebagai mekanik sepeda motor, teknisi injeksi, teknisi service motor sport.",
+                "Bengkel praktik, peralatan service motor."
+            ),
+            Keahlian(
+                "Teknik Pengelasan",
+                "Program Keahlian Teknik Pengelasan dan Fabrikasi Logam",
+                "Bekerja sebagai welder, teknisi las industri, fabrikator logam.",
+                "Workshop las, mesin las listrik, mesin las MIG/TIG."
             )
-            // tambahkan jurusan lain...
         )
 
         rvKeahlian.adapter = KeahlianAdapter(dataKeahlian) { keahlian ->
