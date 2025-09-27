@@ -11,7 +11,7 @@
         android:id="@+id/tvHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="PROGRAM KEAHLIAN SMK"
+        android:text="PROGRAM KEAHLIAN\nSMK NEGERI 1 AIR PUTIH"
         android:textSize="22sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -21,7 +21,7 @@
         android:elevation="2dp"
         android:layout_marginBottom="6dp"
         android:letterSpacing="0.05"
-        android:layout_marginTop="25dp"/>
+        android:layout_marginTop="50dp"/>
 
     <TextView
         android:id="@+id/tvDeskripsi"
@@ -53,5 +53,5 @@
         android:backgroundTint="@android:color/holo_red_light"
         android:textColor="@android:color/white"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="5dp" />
+        android:layout_marginBottom="15dp" />
 </LinearLayout>
