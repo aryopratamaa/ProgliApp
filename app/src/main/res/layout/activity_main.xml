@@ -4,21 +4,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="8dp">
+    android:background="#F8F9FA"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROGRAM KEAHLIAN SMK"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:background="#BBDEFB"
+        android:elevation="2dp"
+        android:layout_marginBottom="6dp"
+        android:letterSpacing="0.05"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/tvDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih jurusan untuk melihat peluang kerja dan fasilitas lengkap."
+        android:textSize="14sp"
+        android:textColor="@android:color/darker_gray"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginBottom="10dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvKeahlian"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:scrollbars="vertical" />
+        android:scrollbars="vertical"
+        android:background="@android:color/white"
+        android:elevation="1dp"
+        android:padding="4dp" />
 
     <Button
         android:id="@+id/btnExit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="KELUAR"
+        android:text="EXIT"
+        android:textAllCaps="false"
         android:backgroundTint="@android:color/holo_red_light"
         android:textColor="@android:color/white"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp" />
 </LinearLayout>
